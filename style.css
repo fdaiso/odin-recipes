@@ -9,12 +9,13 @@ h1 {
     padding: 12px;
     text-align: center;
     background-color: hsl(350, 25%, 40%);
-    color: white;
+    color: hsl(0, 0%, 97%);
 }
 
 h2 {
     background-color: hsl(350, 50%, 20%);
-    color: white;
+    color: hsl(0, 0%, 85%);
+    padding: 3px;
 }
 
 div {
@@ -46,4 +47,9 @@ img {
     margin: 10px auto;
     background-color: hsl(350, 20%, 50%);
     padding: 15px;
+}
+
+.recipe-container p,
+.recipe-container li {
+    color: hsl(155, 0%, 5%);
 }
