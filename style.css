@@ -37,10 +37,17 @@ a {
     padding: 10px;
 }
 
+a:hover,
+a:focus {
+        background-color: hsl(350, 50%, 35%);
+}
+
 img {
     width: 700px;
     height: auto;
     margin: 0 auto;
+    border-radius: 10px;
+    border: 5px solid hsl(350, 50%, 25%);
 }
 
 .recipe-container {
