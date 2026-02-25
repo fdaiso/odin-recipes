@@ -60,3 +60,9 @@ img {
 .recipe-container li {
     color: hsl(155, 0%, 5%);
 }
+
+.home-button {
+    width: 712px;
+    margin: 0 auto;
+    text-align: center;
+}
